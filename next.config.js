@@ -5,13 +5,14 @@ const nextConfig = {
     appDir: true,
     // typedRoutes: true,
     serverComponentsExternalPackages: ["@planetscale/database"],
-    turbo: true
+    turbo: true,
+    runtime: "experimental-edge",
   },
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'images.clerk.dev',
+        protocol: "https",
+        hostname: "images.clerk.dev",
       },
     ],
   },
